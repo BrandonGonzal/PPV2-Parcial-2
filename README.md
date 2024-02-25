@@ -1,2 +1,2 @@
 # PPV2-Parcial-2
-Es el repositorio de programación para videojuegos 2
+Este es un compendio de las clases de la materia de Programación para Videojuegos 2
