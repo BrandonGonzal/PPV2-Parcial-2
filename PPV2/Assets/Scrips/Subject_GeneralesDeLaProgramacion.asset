@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0e9ee74baf54f4c99594a916a30e9f, type: 3}
+  m_Name: Subject_GeneralesDeLaProgramacion
+  m_EditorClassIdentifier: 
+  leccionList:
+  - ID: 0
+    lessons: 
+    options:
+    - ID
+    - Lista
+    - Simbolo
+    - Tipo
+    - Contenedor
+    correctAnswer: 4
+  - ID: 1
+    lessons: 
+    options:
+    - Variable
+    - Proceso
+    - Clase
+    - Recurso
+    - Script
+    correctAnswer: 1
+  - ID: 2
+    lessons: 
+    options:
+    - Una Funcion
+    - Una Clase
+    - Un Recurso
+    - Un Conjunto de Algoritmo
+    - Una Serie de TV
+    correctAnswer: 3
+  - ID: 3
+    lessons: 
+    options:
+    - Una serie de pasos para resolver un problema
+    - Es una variable
+    - Una Funcion
+    - Un Programa
+    - Un Script
+    correctAnswer: 0
+  - ID: 4
+    lessons: 
+    options:
+    - Si
+    - No
+    correctAnswer: 0
