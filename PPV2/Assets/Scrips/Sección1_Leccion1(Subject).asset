@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b0e9ee74baf54f4c99594a916a30e9f, type: 3}
-  m_Name: Subject_GeneralesDeLaProgramacion
+  m_Name: "Secci\xF3n1_Leccion1(Subject)"
   m_EditorClassIdentifier: 
   leccionList:
   - ID: 0

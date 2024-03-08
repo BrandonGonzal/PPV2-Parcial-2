@@ -87,6 +87,7 @@ GameObject:
   - component: {fileID: 8292543607920883696}
   - component: {fileID: 3719946296744045294}
   - component: {fileID: 8933145262234349617}
+  - component: {fileID: 1390734611966123674}
   m_Layer: 5
   m_Name: SubjectButton
   m_TagString: Untagged
@@ -196,3 +197,23 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1390734611966123674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186310280962556449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c353eb2b0da1b46a29bf1f8f6e703e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Lection: 0
+  CurrentLession: 1
+  TotalLessions: 5
+  AreAllLessonsComplete: 0
+  StageTitle: {fileID: 0}
+  LessonStage: {fileID: 0}
+  lessonContainer: {fileID: 0}
+  LessonData: {fileID: 0}
