@@ -3,7 +3,11 @@ guid: 57c353eb2b0da1b46a29bf1f8f6e703e
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - StageTitle: {instanceID: 0}
+  - LessonStage: {instanceID: 0}
+  - lessonContainer: {instanceID: 0}
+  - LessonData: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
