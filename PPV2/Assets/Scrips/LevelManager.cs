@@ -7,6 +7,8 @@ using TMPro;
 
 public class LevelManager : MonoBehaviour
 {
+
+    public static LevelManager Instance;
     [Header("Level Data")]
     public Subject Lesson;
 
@@ -19,9 +21,22 @@ public class LevelManager : MonoBehaviour
     public int currentQuestion = 0;
     public string question;
     public string correctAnswer;
+    public int answerFromPlayer;
 
     [Header("Current Leccion")]
     public Leccion currentLesson;
+
+    private void Awake()
+    {
+        if (Instance != null)
+        {
+            return;
+        }
+        else 
+        {
+            Instance = this;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +64,13 @@ public class LevelManager : MonoBehaviour
             correctAnswer = currentLesson.options[currentLesson.correctAnswer];
             //Establecemos la pregunta en la UI
             QuestionTxt.text = question;
+            //Establecemos las Opciones 
+            for (int i = 0; i < currentLesson.options.Count;i++) 
+            {
+                Options[i].GetComponent<Option>().OptionName = currentLesson.options[i];
+                Options[i].GetComponent<Option>().OptionID = i;
+                Options[i].GetComponent<Option>().UpdateText();
+            }
         }
         else 
         {
@@ -71,5 +93,10 @@ public class LevelManager : MonoBehaviour
         {
             //cambio de escena
         }
+    }
+
+    public void SetPlayerAnswer(int answer) 
+    {
+        answerFromPlayer = answer;
     }
 }
