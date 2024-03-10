@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b0e9ee74baf54f4c99594a916a30e9f, type: 3}
   m_Name: "Secci\xF3n1_Leccion1(Subject)"
   m_EditorClassIdentifier: 
+  Lesson: 0
   leccionList:
   - ID: 0
-    lessons: 
+    lessons: "\xBFQue es una variable?"
     options:
     - ID
     - Lista
@@ -23,7 +24,7 @@ MonoBehaviour:
     - Contenedor
     correctAnswer: 4
   - ID: 1
-    lessons: 
+    lessons: "\xBFQue es una funcion?"
     options:
     - Variable
     - Proceso
@@ -32,7 +33,7 @@ MonoBehaviour:
     - Script
     correctAnswer: 1
   - ID: 2
-    lessons: 
+    lessons: "\xBFQue es un programa?"
     options:
     - Una Funcion
     - Una Clase
@@ -41,7 +42,7 @@ MonoBehaviour:
     - Una Serie de TV
     correctAnswer: 3
   - ID: 3
-    lessons: 
+    lessons: "\xBFQue es un algoritmo?"
     options:
     - Una serie de pasos para resolver un problema
     - Es una variable
@@ -50,7 +51,7 @@ MonoBehaviour:
     - Un Script
     correctAnswer: 0
   - ID: 4
-    lessons: 
+    lessons: "\xBFExiste alguna diferencia entre un programa y una aplicaci\xF3n?"
     options:
     - Si
     - No
